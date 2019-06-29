@@ -1,0 +1,22 @@
+{
+  "name": "rpi-lcd",
+  "version": "1.0.0",
+  "description": "A simple HD44780 GPIO driver.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlynxZhou/rpi-lcd.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AlynxZhou/rpi-lcd/issues"
+  },
+  "homepage": "https://github.com/AlynxZhou/rpi-lcd#readme",
+  "author": "Alynx Zhou <alynx.zhou@gmail.com> (https://alynx.xyz/)",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "rpio": "^1.0.13"
+  }
+}
