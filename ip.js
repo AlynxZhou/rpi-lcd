@@ -22,7 +22,7 @@ let index = 0
 let buffer = []
 setInterval(() => {
   const ips = getipv4s(process.argv.slice(2))
-  if (ips.length > rows) {
+  if (ips.length > lcd.rows) {
     index = index % ips.length
     buffer.push(ips[index++])
     buffer = buffer.slice(-2)
